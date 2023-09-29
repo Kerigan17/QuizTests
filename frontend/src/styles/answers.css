@@ -1,0 +1,76 @@
+.answers-info {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.answers-text {
+    display: flex;
+    align-items: center;
+    color: #DCDCF3;
+}
+
+.answers-text img {
+    margin: 0 15px;
+}
+
+.answers-test-name {
+    color: #6933DC;
+}
+
+.answers-people-info {
+    margin-bottom: 60px;
+}
+
+.answers-question-title {
+    font-size: 36px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    margin-bottom: 40px;
+}
+
+.test-questions-options {
+    min-height: auto;
+}
+
+._error {
+    color: red;
+}
+
+input[type="radio"]._error {
+    border: 10px solid red;
+}
+
+input[type="radio"]._error::before {
+    box-shadow: inset 10px 10px white;
+}
+
+._correct {
+    color: green;
+}
+
+input[type="radio"]._correct {
+    border: 10px solid green;
+}
+
+input[type="radio"]._correct::before {
+    box-shadow: inset 10px 10px white;
+}
+
+.back .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back a {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back a img {
+    margin-left: 13px;
+}
+
+
+
+
